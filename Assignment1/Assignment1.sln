@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Question1", "Question1\Question1.csproj", "{2242B2D7-3C09-4561-B478-21ADF2CF6C40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Question2", "Question2\Question2.csproj", "{A96109B0-BC77-43C8-9679-5CD6444794BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Question3", "Question3\Question3.csproj", "{57AE72CB-AF16-4459-998A-4583F253E96B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2242B2D7-3C09-4561-B478-21ADF2CF6C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2242B2D7-3C09-4561-B478-21ADF2CF6C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2242B2D7-3C09-4561-B478-21ADF2CF6C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2242B2D7-3C09-4561-B478-21ADF2CF6C40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A96109B0-BC77-43C8-9679-5CD6444794BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A96109B0-BC77-43C8-9679-5CD6444794BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A96109B0-BC77-43C8-9679-5CD6444794BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A96109B0-BC77-43C8-9679-5CD6444794BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57AE72CB-AF16-4459-998A-4583F253E96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57AE72CB-AF16-4459-998A-4583F253E96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57AE72CB-AF16-4459-998A-4583F253E96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57AE72CB-AF16-4459-998A-4583F253E96B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5DBB533-3866-474B-BFDA-3DFCF8B50165}
+	EndGlobalSection
+EndGlobal

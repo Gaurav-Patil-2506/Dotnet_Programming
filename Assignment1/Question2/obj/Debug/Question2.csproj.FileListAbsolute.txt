@@ -1,0 +1,7 @@
+D:\Dotnet_Assignment\Assignment1\Question2\bin\Debug\Question2.exe.config
+D:\Dotnet_Assignment\Assignment1\Question2\bin\Debug\Question2.exe
+D:\Dotnet_Assignment\Assignment1\Question2\bin\Debug\Question2.pdb
+D:\Dotnet_Assignment\Assignment1\Question2\obj\Debug\Question2.csproj.AssemblyReference.cache
+D:\Dotnet_Assignment\Assignment1\Question2\obj\Debug\Question2.csproj.CoreCompileInputs.cache
+D:\Dotnet_Assignment\Assignment1\Question2\obj\Debug\Question2.exe
+D:\Dotnet_Assignment\Assignment1\Question2\obj\Debug\Question2.pdb
