@@ -1,0 +1,136 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Assignment-6/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Assignment-6.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assignment-6.dll": {}
+        }
+      },
+      "Assignment-7/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Assignment-6": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Assignment-7.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assignment-7.dll": {}
+        }
+      },
+      "Assignment-8/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Assignment-7": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Assignment-8.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assignment-8.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assignment-6/1.0.0": {
+      "type": "project",
+      "path": "../Assignment-6/Assignment-6.csproj",
+      "msbuildProject": "../Assignment-6/Assignment-6.csproj"
+    },
+    "Assignment-7/1.0.0": {
+      "type": "project",
+      "path": "../Assignment-7/Assignment-7.csproj",
+      "msbuildProject": "../Assignment-7/Assignment-7.csproj"
+    },
+    "Assignment-8/1.0.0": {
+      "type": "project",
+      "path": "../Assignment-8/Assignment-8.csproj",
+      "msbuildProject": "../Assignment-8/Assignment-8.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Assignment-7 >= 1.0.0",
+      "Assignment-8 >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Rigel\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\SunBeam-Assigment\\DotNet\\DotNet-Assignments\\Assignment-9\\Assignment-9.csproj",
+      "projectName": "Assignment-9",
+      "projectPath": "E:\\SunBeam-Assigment\\DotNet\\DotNet-Assignments\\Assignment-9\\Assignment-9.csproj",
+      "packagesPath": "C:\\Users\\Rigel\\.nuget\\packages\\",
+      "outputPath": "E:\\SunBeam-Assigment\\DotNet\\DotNet-Assignments\\Assignment-9\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Rigel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "E:\\SunBeam-Assigment\\DotNet\\DotNet-Assignments\\Assignment-7\\Assignment-7.csproj": {
+              "projectPath": "E:\\SunBeam-Assigment\\DotNet\\DotNet-Assignments\\Assignment-7\\Assignment-7.csproj"
+            },
+            "E:\\SunBeam-Assigment\\DotNet\\DotNet-Assignments\\Assignment-8\\Assignment-8.csproj": {
+              "projectPath": "E:\\SunBeam-Assigment\\DotNet\\DotNet-Assignments\\Assignment-8\\Assignment-8.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
